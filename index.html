@@ -23,7 +23,6 @@
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
@@ -35,12 +34,14 @@
 <body>
 
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top d-flex align-items-center">
-        <div class="container d-flex align-items-center">
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt=""></a>
+    <header id="header" class="header fixed-top">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-            <nav id="navbar" class="navbar order-last order-lg-0">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <img src="assets/img/logo.png" alt="">
+            </a>
+
+            <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
                     <li><a class="nav-link scrollto" href="#about">Produk</a></li>
@@ -48,32 +49,49 @@
                     <li><a class="nav-link scrollto " href="#portfolio">Tips</a></li>
                     <li><a class="nav-link scrollto" href="#team">Kalkulator Cat</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Kontak Kami</a></li>
+                    <li><a class="getstarted scrollto" href="#about">Inspirasi Warna</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
 
-            <a href="#about" class="get-started-btn scrollto">Inspirasi Warna</a>
         </div>
     </header><!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center">
+    <section id="hero" class="hero d-flex align-items-center">
 
-        <div class="container" data-aos="zoom-out" data-aos-delay="100">
+        <div class="container">
             <div class="row">
-                <div class="col-xl-6">
-                    <h1>Keindahan <span class="strong">Warna</span> Yang Membawa <span class="strong">Kebahagian</span>
+                <div class="col-lg-6 d-flex flex-column justify-content-center">
+                    <h1 data-aos="fade-up">
+                        Keindahan <span class="strong">Warna</span> Yang Membawa <span class="strong">Kebahagian</span>
                         Di Dalam Rumah dan Kehidupan
                         <span class="strong">Kita</span>
                     </h1>
-                    <h2>Cat kami tidak hanya mengubah dinding rumah Anda, namun juga menyempurnakan kehidupan jutaan
-                        manusia di dunia. Temukan tren dan ide dekorasi dari kami.</h2>
-                    <a href="#about" class="btn-get-started scrollto">Get Started</a>
+                    <h2 data-aos="fade-up" data-aos-delay="400">
+                        Cat kami tidak hanya mengubah dinding rumah Anda, namun juga menyempurnakan kehidupan jutaan
+                        manusia di dunia. Temukan tren dan ide dekorasi dari kami.
+                    </h2>
+                    <div data-aos="fade-up" data-aos-delay="600">
+                        <div class="text-center text-lg-start">
+                            <a href="#about"
+                                class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                                <span>Tips & Solusi</span>
+                            </a>
+                            <a href="#calculator" class="btn-calculator"><i class="bi bi-calculator"></i> Kalkulator
+                                Cat</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+                    <img src="assets/img/hero-img.png" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
 
     </section><!-- End Hero -->
+
 
     <p>asdas</p>
     <p>asdas</p>
