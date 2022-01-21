@@ -60,9 +60,11 @@ section {
     max-width: 500px;
 }
 @media (max-width: 768px) {
-    .section-header p {
+    .section-header h2 {
         font-size: 28px;
-        line-height: 32px;
+    }
+    .section-header p {
+        max-width: 300px;
     }
 }
 
@@ -879,6 +881,11 @@ section {
     font-size: 12px;
     margin-bottom: 0;
 }
+@media (max-width: 768px) {
+    .warna .box {
+        padding: 60px 5px 10px;
+    }
+}
 
 /*--------------------------------------------------------------
 # F.A.Q
@@ -908,9 +915,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# inspirasi
 --------------------------------------------------------------*/
-.portfolio #portfolio-flters {
+.inspirasi #inspirasi-flters {
     padding: 0;
     margin: 0 auto 25px auto;
     list-style: none;
@@ -919,11 +926,11 @@ section {
     border-radius: 50px;
     padding: 2px 15px;
 }
-.portfolio #portfolio-flters li {
+.inspirasi #inspirasi-flters li {
     cursor: pointer;
     display: inline-block;
     padding: 8px 20px 10px 20px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
     line-height: 1;
     color: #444444;
@@ -932,22 +939,22 @@ section {
     border-radius: 50px;
     border: 1px solid #fff;
 }
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.inspirasi #inspirasi-flters li:hover,
+.inspirasi #inspirasi-flters li.filter-active {
     color: #ea275b;
     border-color: #ea275b;
 }
-.portfolio #portfolio-flters li:last-child {
+.inspirasi #inspirasi-flters li:last-child {
     margin-right: 0;
 }
-.portfolio .portfolio-wrap {
+.inspirasi .inspirasi-wrap {
     transition: 0.3s;
     position: relative;
     overflow: hidden;
     z-index: 1;
     background: rgba(255, 255, 255, 0.75);
 }
-.portfolio .portfolio-wrap::before {
+.inspirasi .inspirasi-wrap::before {
     content: "";
     background: rgba(255, 255, 255, 0.75);
     position: absolute;
@@ -959,10 +966,10 @@ section {
     z-index: 2;
     opacity: 0;
 }
-.portfolio .portfolio-wrap img {
+.inspirasi .inspirasi-wrap img {
     transition: 1s;
 }
-.portfolio .portfolio-wrap .portfolio-info {
+.inspirasi .inspirasi-wrap .inspirasi-info {
     opacity: 0;
     position: absolute;
     top: 0;
@@ -977,7 +984,7 @@ section {
     justify-content: center;
     align-items: center;
 }
-.portfolio .portfolio-wrap .portfolio-info::before {
+.inspirasi .inspirasi-wrap .inspirasi-info::before {
     display: block;
     content: "";
     width: 48px;
@@ -990,7 +997,7 @@ section {
     transition: all 0.5s ease 0s;
     z-index: 9994;
 }
-.portfolio .portfolio-wrap .portfolio-info::after {
+.inspirasi .inspirasi-wrap .inspirasi-info::after {
     display: block;
     content: "";
     width: 48px;
@@ -1003,12 +1010,12 @@ section {
     transition: all 0.5s ease 0s;
     z-index: 9994;
 }
-.portfolio .portfolio-wrap .portfolio-info h4 {
+.inspirasi .inspirasi-wrap .inspirasi-info h4 {
     font-size: 20px;
     color: #111111;
     font-weight: 700;
 }
-.portfolio .portfolio-wrap .portfolio-info p {
+.inspirasi .inspirasi-wrap .inspirasi-info p {
     color: #111111;
     font-weight: 600;
     font-size: 14px;
@@ -1016,11 +1023,11 @@ section {
     padding: 0;
     margin: 0;
 }
-.portfolio .portfolio-wrap .portfolio-links {
+.inspirasi .inspirasi-wrap .inspirasi-links {
     text-align: center;
     z-index: 4;
 }
-.portfolio .portfolio-wrap .portfolio-links a {
+.inspirasi .inspirasi-wrap .inspirasi-links a {
     color: #fff;
     background: #ea275b;
     margin: 10px 2px;
@@ -1032,50 +1039,50 @@ section {
     border-radius: 50%;
     transition: 0.3s;
 }
-.portfolio .portfolio-wrap .portfolio-links a i {
+.inspirasi .inspirasi-wrap .inspirasi-links a i {
     font-size: 24px;
     line-height: 0;
 }
-.portfolio .portfolio-wrap .portfolio-links a:hover {
-    background: #5969f3;
+.inspirasi .inspirasi-wrap .inspirasi-links a:hover {
+    background: #d11245;
 }
-.portfolio .portfolio-wrap:hover img {
+.inspirasi .inspirasi-wrap:hover img {
     transform: scale(1.1);
 }
-.portfolio .portfolio-wrap:hover::before {
+.inspirasi .inspirasi-wrap:hover::before {
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     opacity: 1;
 }
-.portfolio .portfolio-wrap:hover .portfolio-info {
+.inspirasi .inspirasi-wrap:hover .inspirasi-info {
     opacity: 1;
 }
-.portfolio .portfolio-wrap:hover .portfolio-info::before {
+.inspirasi .inspirasi-wrap:hover .inspirasi-info::before {
     top: 15px;
     left: 15px;
 }
-.portfolio .portfolio-wrap:hover .portfolio-info::after {
+.inspirasi .inspirasi-wrap:hover .inspirasi-info::after {
     bottom: 15px;
     right: 15px;
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# inspirasi Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.inspirasi-details {
     padding-top: 40px;
 }
-.portfolio-details .portfolio-details-slider img {
+.inspirasi-details .inspirasi-details-slider img {
     width: 100%;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.inspirasi-details .inspirasi-details-slider .swiper-pagination {
     margin-top: 20px;
     position: relative;
 }
-.portfolio-details
-    .portfolio-details-slider
+.inspirasi-details
+    .inspirasi-details-slider
     .swiper-pagination
     .swiper-pagination-bullet {
     width: 12px;
@@ -1084,40 +1091,40 @@ section {
     opacity: 1;
     border: 1px solid #ea275b;
 }
-.portfolio-details
-    .portfolio-details-slider
+.inspirasi-details
+    .inspirasi-details-slider
     .swiper-pagination
     .swiper-pagination-bullet-active {
     background-color: #ea275b;
 }
-.portfolio-details .portfolio-info {
+.inspirasi-details .inspirasi-info {
     padding: 30px;
     box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
 }
-.portfolio-details .portfolio-info h3 {
+.inspirasi-details .inspirasi-info h3 {
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid #eee;
 }
-.portfolio-details .portfolio-info ul {
+.inspirasi-details .inspirasi-info ul {
     list-style: none;
     padding: 0;
     font-size: 15px;
 }
-.portfolio-details .portfolio-info ul li + li {
+.inspirasi-details .inspirasi-info ul li + li {
     margin-top: 10px;
 }
-.portfolio-details .portfolio-description {
+.inspirasi-details .inspirasi-description {
     padding-top: 30px;
 }
-.portfolio-details .portfolio-description h2 {
+.inspirasi-details .inspirasi-description h2 {
     font-size: 26px;
     font-weight: 700;
     margin-bottom: 20px;
 }
-.portfolio-details .portfolio-description p {
+.inspirasi-details .inspirasi-description p {
     padding: 0;
 }
 
@@ -1380,11 +1387,9 @@ section {
 --------------------------------------------------------------*/
 .kalkulator {
     width: 100%;
-    height: 600px;
     background: url("../img/bg-kalkulator.png") top center no-repeat;
     background-size: cover;
     position: relative;
-    padding-top: 80px;
     color: #eee;
 }
 .kalkulator:before {
@@ -1399,15 +1404,67 @@ section {
 .kalkulator .box {
     box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
     transition: 0.3s;
-    /* height: 100%; */
-    height: 300px;
+    height: 100%;
     overflow: hidden;
-    padding: 20px;
+    padding: 30px;
     border-radius: 8px;
     position: relative;
     display: flex;
     flex-direction: column;
     background-color: #ddd;
+}
+
+.kalkulator .box .dinding-header {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #444;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0 0 10px;
+}
+
+.kalkulator .box .dinding-item {
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 10px;
+}
+
+.kalkulator .box .dinding-tambah {
+    padding: 10px 0;
+    font-weight: 500;
+}
+
+.kalkulator .box .dinding-hitung {
+    padding: 20px 10px 0;
+    font-weight: 500;
+}
+
+.kalkulator .dinding-hitung a,
+.kalkulator .dinding-hitung a:focus {
+    background: #ea275b;
+    padding: 8px 30px;
+    border-radius: 30px;
+    color: #fff;
+    text-align: center;
+}
+.kalkulator .box .hasil-ukur {
+    padding: 10px;
+    border-radius: 10px;
+    height: 100%;
+    background-color: #eee;
+}
+@media (max-width: 768px) {
+    .kalkulator .box {
+        padding: 30px 20px;
+    }
+    .kalkulator .box .dinding-title {
+        padding: 0 5px;
+    }
+    .kalkulator .box .hasil-ukur {
+        padding: 5px;
+        margin: 20px 0;
+    }
 }
 
 /*--------------------------------------------------------------
