@@ -1449,10 +1449,34 @@ section {
     text-align: center;
 }
 .kalkulator .box .hasil-ukur {
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     height: 100%;
     background-color: #eee;
+}
+.kalkulator .box .hasil-label {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0;
+    color: #666;
+}
+.kalkulator .box .hasil-konten {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 26px;
+}
+.kalkulator .box .hasil-konten span {
+    font-weight: 600;
+    color: #111;
+}
+.kalkulator .box .hasil-syarat {
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
+    margin: 0;
+    color: #666;
 }
 @media (max-width: 768px) {
     .kalkulator .box {
