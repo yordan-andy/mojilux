@@ -2147,6 +2147,15 @@ section {
 #footer .footer-newsletter form input[type="submit"]:hover {
     background: #e35052;
 }
+#footer .copyright {
+    font-size: 14px;
+    font-weight: 300;
+    color: #eee;
+}
+#footer .copyright span {
+    font-weight: 500;
+    color: #fff;
+}
 #footer .credits {
     padding-top: 5px;
     font-size: 13px;
