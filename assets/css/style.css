@@ -719,7 +719,7 @@ section {
 }
 .produk .produk-box .icon {
     font-size: 36px;
-    padding: 40px 20px;
+    padding: 10px 20px;
     border-radius: 4px;
     position: relative;
     margin-bottom: 25px;
@@ -729,7 +729,13 @@ section {
 }
 .produk .produk-box h3 {
     color: #444444;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 22px;
+}
+.produk .produk-box p {
+    color: #666;
+    font-weight: 500;
+    font-size: 14px;
 }
 .produk .produk-box .read-more {
     display: inline-flex;
