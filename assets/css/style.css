@@ -711,7 +711,7 @@ section {
 .produk .produk-box {
     box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
     height: 100%;
-    padding: 60px 30px;
+    padding: 30px;
     text-align: center;
     transition: 0.3s;
     border-radius: 5px;
@@ -736,6 +736,13 @@ section {
     color: #666;
     font-weight: 500;
     font-size: 14px;
+}
+.produk .produk-box .deskripsi {
+    color: #111;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    margin: 0;
 }
 .produk .produk-box .read-more {
     display: inline-flex;
@@ -796,7 +803,7 @@ section {
 }
 .produk .produk-box.red .icon {
     color: #ea275b;
-    background: #fef7f8;
+    background: #f5e3e5;
 }
 .produk .produk-box.red ul li i,
 .produk .produk-box.red .read-more {
@@ -843,14 +850,16 @@ section {
 }
 
 .produk ul {
-    padding: 20px 0;
+    padding: 10px 0;
     list-style: none;
     text-align: left;
-    line-height: 20px;
+    line-height: 10px;
+    margin: 0;
 }
 .produk ul li {
     padding: 10px 0 10px 30px;
     position: relative;
+    font-size: 15px;
 }
 .produk ul i {
     font-size: 24px;
