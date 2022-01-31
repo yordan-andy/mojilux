@@ -579,8 +579,8 @@
                                                 class="hasil-area">0m<sup>2</sup></span></p>
                                         <p class="hasil-label">Jumlah yang Diperlukan:</p>
                                         <p class="hasil-konten">Membutuhkan Cat Sebanyak <span class="hasil-liter">0
-                                                liter</span> atau
-                                            <span class="hasil-kaleng">0 Kaleng</span> Ukuran <span>5L</span>
+                                                Kg</span> atau
+                                            <span class="hasil-kaleng">0 Kaleng</span> Ukuran <span>2.5Kg</span>
                                         </p>
                                         <p class="hasil-syarat">*Perhitungan berdasarkan pengaplikasian 2 lapisan pada
                                             dinding. Hasil bisa bervariasi tergantung pada kondisi permukaan, jenis cat,
@@ -937,8 +937,8 @@
                 }
                 $(".hasil-area").html(luas.toFixed(2).replace(/\.00$/, '') + 'm<sup>2</sup>');
                 liter = (luas * 2) / 8;
-                $(".hasil-liter").html(liter.toFixed(2).replace(/\.00$/, '') + ' liter');
-                kaleng = Math.ceil(liter / 5);
+                $(".hasil-liter").html(liter.toFixed(2).replace(/\.00$/, '') + ' Kg');
+                kaleng = Math.ceil(liter / 2.5);
                 $(".hasil-kaleng").html(kaleng + ' kaleng');
             });
         });
