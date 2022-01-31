@@ -2085,6 +2085,13 @@ section {
     color: #a5c5fe;
     font-size: 14px;
 }
+@media (max-width: 768px) {
+    .blog .sidebar,
+    .blog .entry {
+        padding: 30px 10px;
+        margin: 0 0 60px;
+    }
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
