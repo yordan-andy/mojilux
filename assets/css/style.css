@@ -80,7 +80,7 @@ section {
 }
 @media (max-width: 992px) {
     .breadcrumbs {
-        margin-top: 57px;
+        margin-top: 70px;
     }
 }
 .breadcrumbs h2 {
@@ -1082,7 +1082,6 @@ section {
     bottom: 15px;
     right: 15px;
 }
-
 /*--------------------------------------------------------------
 # inspirasi Details
 --------------------------------------------------------------*/
@@ -1162,6 +1161,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row;
 }
 .inspirasi-details .inspirasi-info .item-price span {
     display: block;
@@ -1170,6 +1170,16 @@ section {
 .inspirasi-details .inspirasi-info .item-tag {
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+    .inspirasi-details .inspirasi-info {
+        padding: 30px 10px;
+    }
+    .inspirasi-details .inspirasi-info .item-price {
+        align-items: flex-start;
+        flex-direction: column;
+    }
 }
 /*--------------------------------------------------------------
 # Testimonials
