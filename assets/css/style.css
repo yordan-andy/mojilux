@@ -711,7 +711,7 @@ section {
 .produk .produk-box {
     box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
     height: 100%;
-    padding: 30px;
+    padding: 40px 30px;
     text-align: center;
     transition: 0.3s;
     border-radius: 5px;
