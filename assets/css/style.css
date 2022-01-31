@@ -73,7 +73,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
     padding: 15px 0;
-    background: #111111;
+    background: #ea275b;
     min-height: 40px;
     margin-top: 82px;
     color: #fff;
@@ -108,7 +108,7 @@ section {
 .breadcrumbs ol li + li::before {
     display: inline-block;
     padding-right: 10px;
-    color: #8894f6;
+    color: #eee;
     content: "/";
 }
 
@@ -134,7 +134,7 @@ section {
     line-height: 0;
 }
 .back-to-top:hover {
-    background: #6776f4;
+    background: #f30e4b;
     color: #fff;
 }
 .back-to-top.active {
@@ -235,7 +235,7 @@ section {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
     color: #fff;
-    background: #870d2d;
+    background: #cc0b3e;
 }
 .navbar .dropdown ul {
     display: block;
@@ -1139,10 +1139,38 @@ section {
     font-weight: 700;
     margin-bottom: 20px;
 }
+.inspirasi-details .inspirasi-info p,
 .inspirasi-details .inspirasi-description p {
     padding: 0;
+    text-align: justify;
 }
-
+.inspirasi-details .inspirasi-info .item {
+    display: flex;
+    align-items: center;
+    margin: 0 0 20px;
+}
+.inspirasi-details .inspirasi-info .item-tag .item-icon,
+.inspirasi-details .inspirasi-info .item .item-icon {
+    color: #ea275b;
+    padding-right: 10px;
+}
+.inspirasi-details .inspirasi-info .item .item-label {
+    display: block;
+    font-weight: 600;
+}
+.inspirasi-details .inspirasi-info .item-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inspirasi-details .inspirasi-info .item-price span {
+    display: block;
+    font-weight: 600;
+}
+.inspirasi-details .inspirasi-info .item-tag {
+    display: flex;
+    align-items: center;
+}
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
